@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2010 (http://www.altova.com) by LILLO (SPLENDOR) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="ErrorTable">
+		<xs:annotation>
+			<xs:documentation>Table Errors</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence maxOccurs="unbounded">
+				<xs:element name="Error">
+					<xs:complexType>
+						<xs:complexContent>
+							<xs:extension base="Error"/>
+						</xs:complexContent>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:complexType name="Error">
+		<xs:sequence>
+			<xs:element name="ErrorCode" type="xs:unsignedInt"/>
+			<xs:element name="ErrorString" type="xs:string"/>
+			<xs:element name="Component" type="Component"/>
+			<xs:element name="TestID" type="xs:unsignedInt"/>
+			<xs:element name="Img_File" type="xs:string"/>
+		</xs:sequence>
+		<xs:attribute name="Board" use="required">
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:enumeration value="SIMP1"/>
+					<xs:enumeration value="SIMP2"/>
+					<xs:enumeration value="STIMP"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+	</xs:complexType>
+	<xs:simpleType name="Component">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="SIMP1_AVIONIC_3910"/>
+			<xs:enumeration value="SIMP1_BSD_EDDL"/>
+			<xs:enumeration value="SIMP1_MDP_EDDL"/>
+			<xs:enumeration value="SIMP1_CSMU_EDDL"/>
+			<xs:enumeration value="SIMP2_ATTACK_3910"/>
+			<xs:enumeration value="SIMP2_EMU1_EDDL"/>
+			<xs:enumeration value="SIMP2_UCS_3838"/>
+			<xs:enumeration value="SIMP2_EMU2_EDDL"/>
+			<xs:enumeration value="STIMP_AVIONIC_3910"/>
+			<xs:enumeration value="STIMP_ATTACK_3910"/>
+		</xs:restriction>
+	</xs:simpleType>
+</xs:schema>

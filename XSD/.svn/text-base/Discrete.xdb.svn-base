@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2010 (http://www.altova.com) by EMA (SKY) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified" xmlns:xdb="http://www.borland.com/schemas/delphi/6.0/XMLDataBinding">
+	<xs:element name="DiscreteList">
+		<xs:annotation>
+			<xs:documentation>Discrete</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:annotation>
+        <xs:appinfo xdb:docElement="DiscreteList"/>
+      </xs:annotation>
+      <xs:sequence>
+				<xs:element name="DISCRETE" type="DiscreteType" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:complexType name="DiscreteType">
+		<xs:sequence>
+			<xs:element name="Status" type="xs:boolean"/>
+			<xs:element name="Name" type="xs:string"/>
+			<xs:element name="Description" type="xs:string" minOccurs="0"/>
+		</xs:sequence>
+		<xs:attribute name="id" type="xs:ID" use="optional"/>
+	</xs:complexType>
+</xs:schema>

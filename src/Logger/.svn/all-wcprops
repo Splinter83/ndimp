@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/src/Logger
+END
+Logger.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/src/Logger/Logger.cpp
+END
+LoggerBase.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/src/Logger/LoggerBase.cpp
+END
+ILogger.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/src/Logger/ILogger.cpp
+END

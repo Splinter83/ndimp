@@ -1,0 +1,48 @@
+*******************************************************************************
+*
+* Concurrent Technologies Linux Enhanced VME Device Driver Package
+*
+* Copyright 2002-2009 Concurrent Technologies.
+*
+*
+*******************************************************************************
+
+Product History
+---------------
+
+Linux Enhanced VME Driver V1.02-01  26/08/09
+
+1. Initial 64 bit Linux VME Driver.
+2. Added Kernel APIs to obtain PCI and VME Addresses.
+3. Fixes in VME Utiliy.
+
+
+Linux Enhanced VME Driver V1.03-01  18/11/09
+
+1. Multi instance VME device access.
+2. Kernel API to register and remove kernel user handler for interrupts.
+3. Flush DMA FIFOs on bus error. 
+4. Example driver and application updated for kernel user interrupt coding.
+
+
+Linux Enhanced VME Driver V1.03-02 11/05/10
+
+1. Multiple instance devices close issue fixed.
+2. Bus error check for unmapped VME address space access through PCI Image.
+3. Added support for VP717 board, changes to board structure 
+   region and VME address structure in BIOS.
+4. Fixed a bug in memory allocation for Universe II device.
+
+
+Linux Enhanced VME Driver V1.03-03 09/11/10
+
+1. Added API to obtain the instance count of VME devices. 
+2. Added ioremap_cache for kernel above 2.6.25. Fixes performance issue 
+   on mmaped and ioremmaped DMA buffer in Kernel > 2.6.25.
+3. Fix in PCI user memory allocation check. 
+
+
+Linux Enhanced VME Driver V1.03-04 10/01/11
+
+1. Added support for VX81x board. 
+2. Source code modifications for newer kernel in RHEL 6.

@@ -1,0 +1,221 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/include/Tests
+END
+Discrete_Output.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/include/Tests/Discrete_Output.h
+END
+IF_Optimized_Bus_Test.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/include/Tests/IF_Optimized_Bus_Test.h
+END
+Watch_Dog.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/include/Tests/Watch_Dog.h
+END
+memoria.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/include/Tests/memoria.h
+END
+RAM_Test.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/include/Tests/RAM_Test.h
+END
+SIMPLoopbackCHASideB.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/include/Tests/SIMPLoopbackCHASideB.h
+END
+Verifica_Mod_BC.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/include/Tests/Verifica_Mod_BC.h
+END
+TestInclude.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/include/Tests/TestInclude.h
+END
+BitHistoryTest.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/include/Tests/BitHistoryTest.h
+END
+HIACT_LODEM.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/include/Tests/HIACT_LODEM.h
+END
+ACT_DEM.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/include/Tests/ACT_DEM.h
+END
+external_vars.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/include/Tests/external_vars.h
+END
+Nmi_3909.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/include/Tests/Nmi_3909.h
+END
+Loopback_Esterno_Att_LS.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/include/Tests/Loopback_Esterno_Att_LS.h
+END
+Parity_Test.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/include/Tests/Parity_Test.h
+END
+Inizializzazione_LS.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/include/Tests/Inizializzazione_LS.h
+END
+En_IsNoGo.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/include/Tests/En_IsNoGo.h
+END
+Iniz_Tavola_Descr_SA_01_TX.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/include/Tests/Iniz_Tavola_Descr_SA_01_TX.h
+END
+ModNogo.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/include/Tests/ModNogo.h
+END
+Iniz_Tavola_Descr_SA_01_RX.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/include/Tests/Iniz_Tavola_Descr_SA_01_RX.h
+END
+BusyProgramBC.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/include/Tests/BusyProgramBC.h
+END
+Skeleton.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/include/Tests/Skeleton.h
+END
+HS_Selftest.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/include/Tests/HS_Selftest.h
+END
+DiscreteIF.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/include/Tests/DiscreteIF.h
+END
+DDLAddressTest.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/include/Tests/DDLAddressTest.h
+END
+Program_BC.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/include/Tests/Program_BC.h
+END
+InterruptLSTest.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/include/Tests/InterruptLSTest.h
+END
+Address_Test.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/include/Tests/Address_Test.h
+END
+Selftest.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/include/Tests/Selftest.h
+END
+messaggi.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/include/Tests/messaggi.h
+END
+Verifica_Progr_BC.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/include/Tests/Verifica_Progr_BC.h
+END
+Loopback_Esterno.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/include/Tests/Loopback_Esterno.h
+END
+Discrete_Input.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/include/Tests/Discrete_Input.h
+END
+Skeleton_Test.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/include/Tests/Skeleton_Test.h
+END
+Watch_Dog_Test.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/include/Tests/Watch_Dog_Test.h
+END
+HS_Interrupt_Pointer_Offset.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/include/Tests/HS_Interrupt_Pointer_Offset.h
+END

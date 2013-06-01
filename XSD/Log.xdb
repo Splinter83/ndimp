@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2010 (http://www.altova.com) by EMA (SKY) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified" xmlns:xdb="http://www.borland.com/schemas/delphi/6.0/XMLDataBinding">
+	<xs:element name="LogList">
+		<xs:complexType>
+			<xs:annotation>
+        <xs:appinfo xdb:docElement="LogList"/>
+      </xs:annotation>
+      <xs:sequence>
+				<xs:element name="LOG" type="LogType"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:complexType name="LogType">
+		<xs:all>
+			<xs:element name="Text" type="xs:string"/>
+			<xs:element name="Value" minOccurs="0">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:enumeration value="ERROR"/>
+						<xs:enumeration value="INFO"/>
+						<xs:enumeration value="WARN"/>
+						<xs:enumeration value="DEBUG"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+		</xs:all>
+	</xs:complexType>
+</xs:schema>

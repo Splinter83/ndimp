@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<CommandList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Command.xsd" size="4">
+<Command id="ID1" Board="SIMP1">
+<Config>
+<InterfaceName>AVIONIC</InterfaceName>
+<Type>NONE</Type>
+<BaseAddress>28000000</BaseAddress>
+<RAMsize>20000</RAMsize>
+<Arbitered_IO>28400000</Arbitered_IO>
+<Direct_IO>28E00000</Direct_IO>
+</Config>
+</Command>
+<Command id="ID2" Board="SIMP1">
+<Config>
+<InterfaceName>BSD</InterfaceName
+><Type>3910</Type>
+<BaseAddress>28800000</BaseAddress
+><RAMsize>4000</RAMsize>
+<Arbitered_IO>28A00000</Arbitered_IO>
+<Direct_IO>28E00000</Direct_IO>
+</Config>
+</Command>
+<Command id="ID3" Board="SIMP1">
+<Config>
+<InterfaceName>MDP</InterfaceName>
+<Type>3838</Type>
+<BaseAddress>29000000</BaseAddress>
+<RAMsize>20000</RAMsize>
+<Arbitered_IO>29400000</Arbitered_IO>
+<Direct_IO>28E00000</Direct_IO>
+</Config>
+</Command>
+<Command id="ID4" Board="SIMP1">
+<Config>
+<InterfaceName>CSMU</InterfaceName>
+<Type>ODDL</Type>
+<BaseAddress>29800000</BaseAddress>
+<RAMsize>4000</RAMsize>
+<Arbitered_IO>29A00000</Arbitered_IO>
+<Direct_IO>28E00000</Direct_IO>
+</Config>
+</Command>
+</CommandList>

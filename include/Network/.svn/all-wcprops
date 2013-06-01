@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/include/Network
+END
+NetAddress.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/include/Network/NetAddress.h
+END
+TcpSocketDecorator.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/include/Network/TcpSocketDecorator.h
+END
+TsapMessage.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/include/Network/TsapMessage.h
+END
+TcpSocketComponent.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/include/Network/TcpSocketComponent.h
+END
+TCPClient.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/include/Network/TCPClient.h
+END
+TCPClientEventList.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/include/Network/TCPClientEventList.h
+END
+TCPFactoryMessage.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/include/Network/TCPFactoryMessage.h
+END
+ConcreteTcpSocket.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/include/Network/ConcreteTcpSocket.h
+END
+TCPServerEventList.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/include/Network/TCPServerEventList.h
+END
+TCPServer.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/include/Network/TCPServer.h
+END
+ISocketTcp.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/include/Network/ISocketTcp.h
+END

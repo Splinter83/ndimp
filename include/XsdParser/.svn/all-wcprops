@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/include/XsdParser
+END
+CommandFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/include/XsdParser/CommandFactory.h
+END
+MessageXml.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/include/XsdParser/MessageXml.h
+END
+DiscreteFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/include/XsdParser/DiscreteFactory.h
+END
+CommandResultFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/include/XsdParser/CommandResultFactory.h
+END

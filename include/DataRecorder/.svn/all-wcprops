@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/include/DataRecorder
+END
+DataRecLogger.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/include/DataRecorder/DataRecLogger.h
+END
+DataRecorder.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/include/DataRecorder/DataRecorder.h
+END
+ConsoleDevice.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/include/DataRecorder/ConsoleDevice.h
+END
+RecordableItem.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/include/DataRecorder/RecordableItem.h
+END
+IRecordingDevice.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/include/DataRecorder/IRecordingDevice.h
+END
+IDataRecorder.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/include/DataRecorder/IDataRecorder.h
+END
+FilestreamDevice.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/include/DataRecorder/FilestreamDevice.h
+END
+XmlLogDevice.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/include/DataRecorder/XmlLogDevice.h
+END
+IRecordable.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/include/DataRecorder/IRecordable.h
+END

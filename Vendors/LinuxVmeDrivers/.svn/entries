@@ -1,0 +1,34 @@
+10
+
+dir
+11
+http://192.168.1.124/usvn/svn/ses_13017_ndimp/trunk/SW/ndimp/Vendors/LinuxVmeDrivers
+http://192.168.1.124/usvn/svn/ses_13017_ndimp
+
+
+
+2013-05-28T11:40:17.908306Z
+6
+gianluca_bernocchi
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+5ec89e36-c34e-4c72-9cf3-887907885761
+
+32bit
+dir
+
+64bit
+dir
+

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2010 (http://www.altova.com) by LILLO (SPLENDOR) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified" xmlns:xdb="http://www.borland.com/schemas/delphi/6.0/XMLDataBinding">
+	<xs:element name="CommandStatus">
+		<xs:annotation>
+			<xs:documentation>Result of a command execution</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:annotation>
+        <xs:appinfo xdb:docElement="CommandStatus"/>
+      </xs:annotation>
+      <xs:sequence>
+				<xs:element name="Result" type="xs:int"/>
+				<xs:element name="CurrentStep" type="xs:int"/>
+				<xs:element name="IsTerminated" type="xs:boolean"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

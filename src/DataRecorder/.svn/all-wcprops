@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/usvn/svn/ses_13017_ndimp/!svn/ver/10/trunk/SW/ndimp/src/DataRecorder
+END
+ConsoleDevice.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/src/DataRecorder/ConsoleDevice.cpp
+END
+RecordableItem.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/src/DataRecorder/RecordableItem.cpp
+END
+IRecordingDevice.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/src/DataRecorder/IRecordingDevice.cpp
+END
+IDataRecorder.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/src/DataRecorder/IDataRecorder.cpp
+END
+FilestreamDevice.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/src/DataRecorder/FilestreamDevice.cpp
+END
+XmlLogDevice.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/usvn/svn/ses_13017_ndimp/!svn/ver/10/trunk/SW/ndimp/src/DataRecorder/XmlLogDevice.cpp
+END
+IRecordable.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/src/DataRecorder/IRecordable.cpp
+END
+DataRecLogger.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/src/DataRecorder/DataRecLogger.cpp
+END
+DataRecorder.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/src/DataRecorder/DataRecorder.cpp
+END

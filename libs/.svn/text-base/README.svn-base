@@ -1,0 +1,8 @@
+Le librerie Xerces-C++ possono essere ottenute da 
+http://xerces.apache.org/xerces-c/
+
+Se si hanno problemi di linking con xerces del tipo:
+XMLString.cpp(.text+0xa85): undefined reference to `__ctype_b'
+XMLString.cpp(.text+0xab0): undefined reference to `__ctype_b'
+
+Rimuovere la libreria static libxerces-c.a

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/src/Network
+END
+TCPClient.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/src/Network/TCPClient.cpp
+END
+TCPFactoryMessage.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/usvn/svn/ses_13017_ndimp/!svn/ver/12/trunk/SW/ndimp/src/Network/TCPFactoryMessage.cpp
+END
+ConcreteTcpSocket.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/src/Network/ConcreteTcpSocket.cpp
+END
+TCPServer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/usvn/svn/ses_13017_ndimp/!svn/ver/12/trunk/SW/ndimp/src/Network/TCPServer.cpp
+END
+ISocketTcp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/src/Network/ISocketTcp.cpp
+END
+TcpSocketDecorator.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/src/Network/TcpSocketDecorator.cpp
+END
+NetAddress.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/src/Network/NetAddress.cpp
+END
+TcpSocketComponent.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/src/Network/TcpSocketComponent.cpp
+END

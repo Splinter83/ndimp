@@ -1,0 +1,3 @@
+Per generare il codice sorgente dai file xsd:
+
+xsd cxx-tree --generate-serialization --generate-doxygen --namespace-map =cs file_name.xsd 

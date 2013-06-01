@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/XSD
+END
+Discrete.xdb
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/XSD/Discrete.xdb
+END
+ToXml.xtr
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/XSD/ToXml.xtr
+END
+CommandStatus.xdb
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/XSD/CommandStatus.xdb
+END
+Command.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/XSD/Command.xsd
+END
+errors.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/XSD/errors.xsd
+END
+test_command.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/XSD/test_command.xml
+END
+Log.xdb
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/XSD/Log.xdb
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/XSD/README
+END
+ToDp.xtr
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/XSD/ToDp.xtr
+END
+errors.dtd
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/XSD/errors.dtd
+END
+Command.xdb
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/XSD/Command.xdb
+END
+Discrete.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/XSD/Discrete.xsd
+END
+CommandStatus.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/XSD/CommandStatus.xsd
+END
+Log.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/XSD/Log.xsd
+END
+errors_example.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/XSD/errors_example.xml
+END

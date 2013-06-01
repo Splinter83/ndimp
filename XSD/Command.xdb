@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2010 (http://www.altova.com) by LILLO (SPLENDOR) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified" xmlns:xdb="http://www.borland.com/schemas/delphi/6.0/XMLDataBinding">
+	<xs:element name="CommandList">
+		<xs:annotation>
+			<xs:documentation>Command list to send to Processing board</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:annotation>
+        <xs:appinfo xdb:docElement="CommandList"/>
+      </xs:annotation>
+      <xs:sequence maxOccurs="unbounded">
+				<xs:element name="Command">
+					<xs:complexType>
+						<xs:complexContent>
+							<xs:extension base="CommandType"/>
+						</xs:complexContent>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+			<xs:attribute name="size" use="required">
+				<xs:simpleType>
+					<xs:restriction base="xs:integer">
+						<xs:minInclusive value="0"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+		</xs:complexType>
+	</xs:element>
+	<xs:complexType name="TestType">
+		<xs:annotation>
+			<xs:documentation>Test type to be executed</xs:documentation>  <xs:appinfo/>
+    </xs:annotation>
+		<xs:sequence>
+			<xs:element name="TestNumber" type="xs:unsignedInt"/>
+			<xs:element name="TestString" type="xs:string" minOccurs="0"/>
+			<xs:element name="Description" type="xs:string" nillable="true" minOccurs="0"/>
+			<xs:element name="StepNumber" type="xs:unsignedInt" default="1" minOccurs="0"/>
+			<xs:element name="TestEnum">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:enumeration value="SIMP1_AVIONIC_3910"/>
+						<xs:enumeration value="SIMP1_BSD_EDDL"/>
+						<xs:enumeration value="SIMP1_MDP_EDDL"/>
+						<xs:enumeration value="SIMP1_CSMU_EDDL"/>
+						<xs:enumeration value="SIMP2_ATTACK_3910"/>
+						<xs:enumeration value="SIMP2_EMU1_EDDL"/>
+						<xs:enumeration value="SIMP2_UCS_3838"/>
+						<xs:enumeration value="SIMP2_EMU2_EDDL"/>
+						<xs:enumeration value="STIMP_AVIONIC_3910"/>
+						<xs:enumeration value="STIMP_ATTACK_3910"/>
+						<xs:enumeration value="INTERFACE_TYPE_1"/>
+						<xs:enumeration value="INTERFACE_TYPE_2"/>
+						<xs:enumeration value="INTERFACE_TYPE_3"/>
+						<xs:enumeration value="INTERFACE_TYPE_4"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="TerminalNumber" type="xs:unsignedInt" minOccurs="0"/>
+			<xs:element name="Channel" minOccurs="0">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:enumeration value="CHANNEL_A"/>
+						<xs:enumeration value="CHANNEL_B"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="RCI" type="xs:unsignedByte" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="BoardConfigurationType">
+		<xs:annotation>
+			<xs:documentation>Struct that defines board configuration</xs:documentation>  <xs:appinfo/>
+    </xs:annotation>
+		<xs:sequence>
+			<xs:element name="BaseAddress" type="xs:hexBinary"/>
+			<xs:element name="RAMsize" type="xs:hexBinary"/>
+			<xs:element name="Type">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:enumeration value="NONE"/>
+						<xs:enumeration value="3838"/>
+						<xs:enumeration value="3910"/>
+						<xs:enumeration value="ODDL"/>
+						<xs:enumeration value="EDDL"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="Arbitered_IO" type="xs:hexBinary"/>
+			<xs:element name="Direct_IO" type="xs:hexBinary"/>
+			<xs:element name="Restart_HS" type="xs:hexBinary"/>
+			<xs:element name="InterfaceName">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:enumeration value="AVIONIC"/>
+						<xs:enumeration value="BSD"/>
+						<xs:enumeration value="MDP"/>
+						<xs:enumeration value="CSMU"/>
+						<xs:enumeration value="ATTACK"/>
+						<xs:enumeration value="EMU1"/>
+						<xs:enumeration value="EMU2"/>
+						<xs:enumeration value="UCS"/>
+						<xs:enumeration value="INTERFACE_1"/>
+						<xs:enumeration value="INTERFACE_2"/>
+						<xs:enumeration value="INTERFACE_3"/>
+						<xs:enumeration value="INTERFACE_4"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="RTAddress" type="xs:int" minOccurs="0"/>
+			<xs:element name="BITHistory_Addr" type="xs:hexBinary"/>
+			<xs:element name="BITHistory_Size" type="xs:hexBinary"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="CommandType">
+		<xs:annotation>
+			<xs:documentation>Command Type. It can be a read, write, test or config command</xs:documentation>  <xs:appinfo/>
+    </xs:annotation>
+		<xs:choice>
+			<xs:element name="Read">
+				<xs:complexType>
+					<xs:attribute name="Address" type="xs:hexBinary" use="required"/>
+					<xs:attribute name="Alignment">
+						<xs:simpleType>
+							<xs:restriction base="xs:string">
+								<xs:enumeration value="B"/>
+								<xs:enumeration value="W"/>
+								<xs:enumeration value="D"/>
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:attribute>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="Write">
+				<xs:complexType>
+					<xs:attribute name="Address" type="xs:hexBinary" use="required"/>
+					<xs:attribute name="Data" type="xs:hexBinary" use="required"/>
+					<xs:attribute name="Alignment">
+						<xs:simpleType>
+							<xs:restriction base="xs:string">
+								<xs:enumeration value="B"/>
+								<xs:enumeration value="W"/>
+								<xs:enumeration value="D"/>
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:attribute>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="Test" type="TestType"/>
+			<xs:element name="Config" type="BoardConfigurationType"/>
+			<xs:element name="SGA">
+				<xs:complexType>
+					<xs:attribute name="Value" use="required">
+						<xs:simpleType>
+							<xs:restriction base="xs:string">
+								<xs:enumeration value="SGA_0"/>
+								<xs:enumeration value="SGA_1"/>
+								<xs:enumeration value="SGA_2"/>
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:attribute>
+				</xs:complexType>
+			</xs:element>
+		</xs:choice>
+		<xs:attribute name="id" type="xs:ID" use="required"/>
+		<xs:attribute name="Board" use="required">
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:enumeration value="SIMP1"/>
+					<xs:enumeration value="SIMP2"/>
+					<xs:enumeration value="STIMP"/>
+					<xs:enumeration value="OTHER"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+	</xs:complexType>
+</xs:schema>

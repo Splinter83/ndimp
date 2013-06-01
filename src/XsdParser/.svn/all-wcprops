@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/src/XsdParser
+END
+CommandFactory.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/src/XsdParser/CommandFactory.cpp
+END
+DiscreteFactory.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/src/XsdParser/DiscreteFactory.cpp
+END
+CommandResultFactory.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/usvn/svn/ses_13017_ndimp/!svn/ver/6/trunk/SW/ndimp/src/XsdParser/CommandResultFactory.cpp
+END
